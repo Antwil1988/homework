@@ -9,6 +9,7 @@ print('Immutable tuple:',immutable_var)
 
 # Создали переменную и присвоили ей список из нескольких элементов.
 mutable_list = [1, 'cold', 'apple', 4.1]
+print('Mutable list:',mutable_list)  # Вывод списка на экран
 mutable_list[1] = 222  # Изменяем второй элемент списка
 mutable_list [3] = 'fish' # Изменяем четвертый элемент списка
 print('Mutable list:',mutable_list) # Вывод списка на экран
